@@ -10,17 +10,20 @@ body {
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-    max-width: 1000px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    max-width: 800px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+h1, h2, h3 {
+    font-family: "Cambay", sans-serif, bold;
 }
 
 header {
     margin: auto;
 }
 header h1 {
-    font-family: "Cambay", sans-serif;
     position: relative;
-    top: -15px;
-    left: 25%;
+    top: -60px;
+    left: 40%;
     padding: 0;
     margin: 5px;
     
@@ -32,22 +35,27 @@ header img {
 }
 header .subheading {
     position: relative;
-    top: -40px;
-    left: 30%;
+    top: -80px;
+    left: 45%;
     padding: 0;
     margin: 5px;
    
 }
 
 nav {
-    margin: auto;
     background-color: #bbc7ce;
 }
 nav button {
     color: #4f6d7a;
 }
-nav ul {}
-nav ul li {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    /*in medium and large views only*/
+}
 nav ul li a {
     color: #4f6d7a;
 }
@@ -55,15 +63,21 @@ nav ul li.active a {
     color: #4f6d7a;
 }
 nav ul li a:hover {
-    color: whitesmoke;
+    color: gray;
 }
 
 main {
     margin: auto;
+    text-align: center;
 }
 main h2 {
     font-family: "Cambay", sans-serif;
-    text-align: center;
+}
+main .weather-summary {
+   
+}
+main .forecast {
+    display: none;
 }
 main figure { 
     margin: 0 0 .2rem 2%; width:96%; }

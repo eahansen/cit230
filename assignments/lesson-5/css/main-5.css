@@ -1,90 +1,94 @@
 /* Delete these CSS comments after reading. */
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+    * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
-body {
-    font-size: 16px;
-    font-family: "Helvetica", sans-serif;/* Declare the base font-family */
-    background-color: #f1fffa;
-}
+    body {
+        font-size: 16px;
+        font-family: "Helvetica", sans-serif;/* Declare the base font-family */
+        background-color: #f1fffa;
+    }
 
-header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-    max-width: 800px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
-}
+    header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+        max-width: 900px; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+    }
 
-h1, h2, h3 {
-    font-family: "Cambay", sans-serif, bold;
-}
+    h1, h2, h3 {
+        font-family: "Cambay", sans-serif, bold;
+    }
 
-header {
-    margin: auto;
-}
-header h1 {
-    position: relative;
-    top: -60px;
-    left: 40%;
-    padding: 0;
-    margin: 5px;
-    
-}
-header img {
-    position: relative;
-    margin: auto;
-    padding: 5px;
-}
-header .subheading {
-    position: relative;
-    top: -80px;
-    left: 45%;
-    padding: 0;
-    margin: 5px;
+    header {
+        margin: auto;
+    }
+    header h1 {
+        position: relative;
+        top: -60px;
+        left: 40%;
+        padding: 0;
+        margin: 5px;
+    }
+    header img {
+        position: relative;
+        margin: auto;
+        padding: 5px;
+    }
+    header .subheading {
+        position: relative;
+        top: -80px;
+        left: 45%;
+        padding: 0;
+        margin: 5px;
    
-}
+    }
 
-nav {
-    background-color: #bbc7ce;
-}
-nav button {
-    color: #4f6d7a;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    /*in medium and large views only*/
-}
-nav ul li a {
-    color: #4f6d7a;
-}
-nav ul li.active a {
-    color: #4f6d7a;
-}
-nav ul li a:hover {
-    color: gray;
-}
+    nav {
+        background-color: #bbc7ce;
+    }
+    nav button {
+        color: #4f6d7a;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    nav ul li {
+        /*in medium and large views only*/
+    }
+    nav ul li a {
+        color: black;
+    }
+    nav ul li.active a {
+        color: #4f6d7a;
+    }
+    nav ul li a:hover {
+        color: #4f6d7a;
+    }
 
-main {
-    margin: auto;
-    text-align: center;
-}
-main h2 {
-    font-family: "Cambay", sans-serif;
-}
-main .weather-summary {
+    main {
+        margin: auto;
+        text-align: center;
+    }
+    main h2 {
+        font-family: "Cambay", sans-serif;
+    }
+    main .weather-summary {
    
-}
-main .forecast {
-    display: none;
-}
-main figure { 
-    margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+    }
+    main .forecast {
+        display: none;
+    }
+    main figure { 
+        margin: 0 0 .2rem 2%; width:96%; }
+    main figure img {
+    }
+    main article {
+        border: 10px #4f6d7a;
+    }
 
-footer {
-    background-color: #bbc7ce;
-    text-align: center;
-    margin: auto;
-}
+    footer {
+        background-color: #bbc7ce;
+        text-align: center;
+        margin: auto;
+    }

@@ -1,5 +1,50 @@
 @media only screen and (min-width: 64em) {
   
-    
+    main h2 {
+        position: relative;
+        left: -100px;
+    }
+    main .summary {
+        
+    }
+    main figure {
+        
+    }
+    main picture img {
+        width: 900px;
+        height: 150px;
+        position: relative;
+        left: 160px;
+        top: -16px;
+    }
+    main .sunny {
+        position: relative;
+        
+    }
+    main .highlow {
+        position: relative;
+        
+    }
+    main .conditions {
+        
+    }
+    main .forecast h3 {
+        position: relative;
+        
+    }
+    main table {
+        
+    }
+    main article {
+        
+    }
+    main .town-article {
+        min-width: 400px;
+    }
+    main article img {
+        min-width: 310px;
+        
+    }
   
+
 }
